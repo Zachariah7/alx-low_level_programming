@@ -1,12 +1,12 @@
 #include <stdio.h>
-/*
+
+/**
+ * main - Entry point
  * Description: This is a c code that prints a char using puts function
- * return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
-/*
- * main - entry point
- */
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);

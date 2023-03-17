@@ -1,13 +1,12 @@
 #include <stdio.h>
-/*
- *int main(void): is the entry point
- *This is a c code that prints a char using printf function
- *return: 0 means that the execution has succeded
-*/
+
+/**
+ * main - Entry point
+ * This is a c code that prints a char using printf function
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
-/*
- *int main(void): is the entry point
-*/
 {
 printf("Size of a char: %u byte(s)\n", sizeof(char));
 printf("Size of an int: %u byte(s)\n", sizeof(int));
