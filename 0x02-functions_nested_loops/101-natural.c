@@ -1,8 +1,8 @@
 #include <stdio.h>
-/**
- * main : Sum all the natural numbers that are below 1024 and multiples of 3 and 5
- * Return: Always 0.
- */
+/*
+* Function main : Sum all the natural numbers that are below 1024 and multiples of 3 and 5
+* Return: Always 0.
+*/
 int main(void)
 {
 	int i, sum = 0;
