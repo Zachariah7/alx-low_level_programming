@@ -13,7 +13,6 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int interfunction(int n, int i);
 int snd_interfunction(int n, int i);
-int is_prime(int n, int m);
 int pal(char *s, int l);
 
 #endif

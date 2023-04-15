@@ -1,41 +1,41 @@
 #include "main.h"
 
 /**
- * is_prime_number -  a function to asses if the input is a prime number
- * @n: integer input
- * Return: recursion
+ * is_prime_number - a recursive
+ * @n: An integer
+ *
+ * Return: 1 if n is a prime number, 0 otherwise
  */
 
 int is_prime_number(int n)
 {
-	if ((!(n % 2) && n != 2) || n < 2)
+	if (n <= 1)
 	{
 		return (0);
 	}
 	else
 	{
-		return (is_prime(n, 3));
+	return (snd_interfunction(n, n - 1));
 	}
 }
 
-
 /**
- * is_prime - check if n is prime
- * @n: integer input
- * @m: integer input
- * Return: 0 on failure, 1 on success
+ * snd_interfunction - a function that returns 1 if the input
+ * integer is a prime number.
+ * @n: An integer
+ * @i: An integer
+ *
+ * Return: 1 if n is a prime number, 0 otherwise
  */
 
-int is_prime(int n, int m)
+int snd_interfunction(int n, int i)
 {
-	if (n % m == 0)
-	{
+	if ((n % i) == 0)
 		return (0);
-	}
-	else if (n > m)
-	{
-		return (is_prime(n, m + 1));
-	}
-	else
+	else if ((n % i) == 1)
 		return (1);
+
+	else
+	return (snd_interfunction(n, i - 1));
+
 }
