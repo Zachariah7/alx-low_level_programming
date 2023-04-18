@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - prints the name of the source file 
+ *main - prints the name of the source file
  *
  *Return: On sucess 0
 */
